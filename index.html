@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hangman Game">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./pictures/9798605773009.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="starting">
+        <h2>Hangman Game</h2>
+        <div>
+            <img src="./pictures/9798605773009.jpg">
+        </div>
+        <button>Start Playing</button>
+    </div>
+    <div class="container">
+        <div class="header">
+            <span>Hangman Game</span>
+            <span class="timer">00:20</span>
+            <span>Wrong Attempts: <span class="rong">0</span></span>
+        </div>
+        <div class="main">
+            <div class="drawing">
+                <span class="star1"></span>
+                <span class="star2"></span>
+                <span class="moon1"></span>
+                <span class="moon2"></span>
+                <span class="drawing1"></span>
+                <span class="drawing2"></span>
+                <span class="eyes"></span>
+                <span class="eyes2"></span>
+                <span class="mouth"></span>
+                <span class="drawing3"></span>
+                <span class="drawing4"></span>
+            </div>
+            <div class="spans">
+            </div>
+            <div class="question">
+            </div>
+        </div>
+        <div class="answer">
+        </div>
+    </div>
+    <audio class="failAudio" src="./game sounds/mixkit-player-losing-or-failing-2042.wav"></audio>
+    <audio class="SuccessAudio" src="./game sounds/JKL83NH-video-game-win.mp3"></audio>
+    <audio class="clickAudio" src="./game sounds/click.mp3"></audio>
+    <audio class="StartAudio" src="./game sounds/mixkit-arcade-game-opener-222.wav"></audio>
+    <audio class="CountDownAudio" src="./game sounds/countdown.wav"></audio>
+    <audio class="gameOverAudio" src="./game sounds/4PWTNYB-end-of-game.mp3"></audio>
+    <script src="./js/main.js"></script>
+</body>
+</html>
