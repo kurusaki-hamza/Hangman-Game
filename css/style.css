@@ -3540,3 +3540,47 @@ height: 74%;
         left: 23%;
     }
 }
+
+@media (min-width: 1600px) {
+.header {
+    width: 160%;
+    left: -201px;
+}
+.container {
+    width: 54%;
+}
+.starting h2 {
+    left: 32%;
+}
+.starting button {
+    left: 303px;
+}
+.retryWord .fail {
+    left: 35%;
+}
+.retryWord2 h2 {
+    left: 94px;
+}
+.retryWord3 h2 {
+    left: 29%;
+}
+.retryWord3 i {
+    left: 37%;
+}
+.retryWord3 h4 {
+    left: 27%;
+}
+}
+
+@media (min-width: 1921px) {
+    .container {
+    width: 48%;
+}
+.header {
+    width: 174%;
+    left: -241px;
+}
+.starting button {
+    left: 369px;
+}
+}
